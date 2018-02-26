@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row">
+    <div class="col s12">
+        <table class="centered">
+            <thead>
+            <tr>
+                <th colspan="4">3ª questão</th>
+            </tr>
+            <tr>
+                <th>Dia</th>
+                <th>Temperatura Máxima</th>
+                <th>Temperatura Mínima</th>
+            </tr>
+            </thead>
+
+
+            <tbody>
+            {% for c in list_clima %}
+            <tr>
+                <td>{{c.dia}}</td>
+                <td>{{c.maxima}}</td>
+                <td>{{c.minima}}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+
+        </table>
+    </div>
+</div>
+{% endblock %}
+

@@ -1,0 +1,18 @@
+nav, .side-nav, .card, .card-panel {
+    background-color: #006064 !important;
+    color: white !important;
+}
+
+.card{
+    margin: 0rem 0 0rem 0;
+}
+
+a {
+    color: white !important;
+}
+
+.card .card-content, .card .card-action  {
+    padding: 5px;
+    margin-top: 10px !important;
+}
+
